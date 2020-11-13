@@ -1,0 +1,18 @@
+@import "vars.scss";
+
+.header-text {
+	font-size: 40px;
+	color: $base-color_extradark;
+}
+
+.details-text {
+	font-size: 24px;
+	color: $base-color_extradark;
+	font-weight: 500;
+	text-align: justify;
+}
+
+.details-btn {
+	font-size: 24px;
+	padding: 10px 24px;
+}

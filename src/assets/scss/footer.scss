@@ -1,0 +1,26 @@
+@import "vars.scss";
+
+.container-custom.footer {
+	bottom: 0;
+	width: 100%;
+	background-color: rgb(240, 240, 240);
+	color: $base-color_extradark;
+	border-top: 2px solid rgb(212, 212, 212);
+	margin-top: auto;
+
+
+	.footer-header {
+		font-size: 20px;
+		font-weight: 600;
+		color: $base-color_dark;
+	}
+
+	.footer-link {
+		color: $base-color_dark;
+		text-decoration: underline;
+	}
+
+	.footer-logo {
+		width: 200px;
+	}
+}

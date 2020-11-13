@@ -1,0 +1,13 @@
+$base-color_light: #D8C9AC;
+$base-color_regular: #BCA371;
+$base-color_dark: #6F5B34;
+$base-color_extradark: #1C170D;
+$base-color_extralight: #F2EDE3;
+$accent-color_extralight: #B1FBE6;
+$accent-color_light: #16F3B4;
+$accent-color_regular: #09BC8A;
+$accent-color_dark: #056147;
+
+.swal-button {
+	background-color: $accent-color_regular;
+}

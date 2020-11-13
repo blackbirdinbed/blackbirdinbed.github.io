@@ -1,0 +1,66 @@
+@import "vars.scss";
+
+.dashboard {
+  position: relative;
+}
+
+.header-text {
+  font-size: 38px;
+}
+
+.subheader-text {
+  font-size: 24px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.container-player {
+  width: 700px;
+
+  @media (max-width: 768px) {
+	  width: auto;
+  }
+
+  .player {
+    width: 100%;
+  }
+}
+
+.separator {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 26px;
+	font-size: 20px;
+}
+
+.icon {
+	height: 100%;
+}
+
+.container-controls {
+	padding: 10px;
+	background-color: $base-color_extralight;
+	color: $base-color_extradark;
+}
+
+.container-comments {
+	width: 80%;
+	max-height: 600px;
+	overflow-y: scroll;
+	
+	.card-text {
+		font-size: 18px;
+
+		.small {
+			font-size: 14px;
+		}
+	}
+
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
+
